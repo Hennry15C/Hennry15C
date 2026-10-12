@@ -1,46 +1,42 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:2b1055,50:c2410c,100:f59e0b&text=Hennry&fontColor=ffffff&fontSize=60&fontAlignY=38&desc=Estudiante%20de%20Ingenier%C3%ADa%20de%20Sistemas%20%7C%20Desarrollador%20Web&descSize=18&descAlignY=58" width="100%" />
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0b1e"/>
+      <stop offset="0.5" stop-color="#3b1a5a"/>
+      <stop offset="0.8" stop-color="#c2410c"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fde68a"/>
+      <stop offset="0.5" stop-color="#f59e0b" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#f59e0b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=F59E0B&center=true&vCenter=true&width=520&lines=Construyendo+proyectos+web;Aprendiendo+cada+d%C3%ADa;Abierto+a+nuevas+oportunidades" />
-</p>
+  <rect width="1200" height="320" fill="url(#sky)"/>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hennry15C&label=Visitas&color=c2410c&style=flat-square" />
-</p>
+  <g fill="#ffffff">
+    <circle cx="120" cy="40" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="70" r="1.2"><animate attributeName="opacity" values="1;0.2;1" dur="4s" repeatCount="indefinite"/></circle>
+    <circle cx="520" cy="30" r="1.6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="60" r="1.2"><animate attributeName="opacity" values="1;0.3;1" dur="3.5s" repeatCount="indefinite"/></circle>
+    <circle cx="860" cy="25" r="1.5"><animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/></circle>
+    <circle cx="1080" cy="55" r="1.4"><animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="1160" cy="110" r="1.1"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/></circle>
+  </g>
 
-## Sobre mí
+  <circle cx="980" cy="225" r="130" fill="url(#sun)">
+    <animate attributeName="r" values="120;140;120" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="980" cy="225" r="44" fill="#fde68a"/>
 
-Soy estudiante de la Universidad de Aquino Bolivia (UDABOL), con enfoque en programación y desarrollo web. Me gusta crear aplicaciones completas, desde el diseño hasta la publicación. Actualmente construyo mi portafolio y busco mi primera oportunidad laboral.
+  <path d="M0 260 L120 205 L220 240 L360 170 L480 235 L620 190 L760 250 L900 205 L1040 245 L1160 195 L1200 215 L1200 320 L0 320 Z" fill="#2a1245" opacity="0.85"/>
+  <path d="M0 292 L150 248 L280 282 L430 242 L580 287 L740 257 L900 292 L1060 252 L1200 287 L1200 320 L0 320 Z" fill="#0d1117"/>
 
-Contacto: tu-correo@gmail.com
-
-## Stack tecnológico
-
-<p>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-</p>
-
-## Proyectos destacados
-
-| Proyecto | Descripción | Demo |
-|---|---|---|
-| Tienda Online | Tienda web con catálogo y carrito de compras | [Ver demo](https://Hennry15C.github.io/tienda-online) |
-| Tienda de Muebles | Compra completa en la página y entrega a domicilio | [Ver demo](https://Hennry15C.github.io/tienda-muebles) |
-| App de Tareas | Gestión de tareas: crear, completar y eliminar | [Ver demo](https://Hennry15C.github.io/app-tareas) |
-
-## Estadísticas de GitHub
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Hennry15C&show_icons=true&theme=radical&hide_border=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hennry15C&layout=compact&theme=radical&hide_border=true" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=Hennry15C&theme=radical&hide_border=true" />
-</p>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=0:f59e0b,50:c2410c,100:2b1055&section=footer" width="100%" />
+  <g opacity="0">
+    <animate attributeName="opacity" from="0" to="1" dur="1.5s" fill="freeze"/>
+    <text x="70" y="120" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="700" fill="#ffffff" letter-spacing="2">Jefferson Hennry</text>
+    <text x="72" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" fill="#fde68a">Vibecoder | Desarrollador Web</text>
+    <rect x="72" y="180" width="110" height="4" rx="2" fill="#f59e0b"/>
+  </g>
+</svg>
